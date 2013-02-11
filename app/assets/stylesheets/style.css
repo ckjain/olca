@@ -1,0 +1,269 @@
+body {
+	background-color:#f8f8f8;
+	margin:0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#555555;
+}
+img {
+	border:none;
+}
+.clear {
+	margin:0;
+	padding:0;
+	clear:both;
+}
+
+#sub_wrapper{
+	width:876px;
+	margin:0 auto;
+	padding:0;
+	height:auto;
+	box-shadow:0 0 20px -4px #666666;
+}
+
+#main_wrapper {
+	width:980px;
+	margin:0 auto;
+	padding:0;
+	height:auto;
+	box-shadow:0 0 20px -4px #666666;
+}
+.olca_header {
+	width:100%;
+	margin:0;
+	float:left;
+	padding:0;
+	height:auto;
+}
+.headerbg {
+	background-color:#258403;
+	height:6px;
+}
+.headerlogo {
+	width:auto;
+}
+.headerlogo img {
+	width:680px;
+	height:52px;
+	display:block;
+}
+.headerbanner {
+	width:auto;
+}
+.headerbanner img {
+	width:980px;
+	height:252px;
+	border-bottom:5px solid #b4dca0;
+}
+.headerlinks {
+	background-color: #258403;
+	color: #DBFFC1;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	padding: 7px;
+	text-align: center;
+	word-spacing: 3px;
+}
+.headerlinks a {
+	color:#dbffc1;
+	text-decoration:none;
+}
+.headerlinks a:hover {
+	color:#dbffc1;
+	text-decoration:underline;
+}
+.olca_dynamic {
+	width:100%;
+	margin:0;
+	padding:0;
+	float:left;
+	height:auto;
+	background-color:#FFFFFF;
+}
+.olca_wrapper {
+	width:100%;
+	background-image: url("images/content_bg.jpg");
+	background-repeat: repeat-x;
+	background-position: left top;
+	background-color:#ffffff;
+	margin:15px auto;
+	height:auto;
+	padding:7px 0;
+}
+.olca_content {
+	width:914px;
+	margin:0 auto;
+	padding:0 0 10px;
+}
+.olca_content h1 {
+	color:#338a04;
+	margin:0;
+	font-family: Century Gothic;
+	text-align:left;
+	font-size: 32px;
+	padding:8px 0;
+	font-weight: bold;
+}
+.olca_text {
+	width:80%;
+	float:left;
+	margin:0;
+	padding:0;
+}
+.olca_iconimg {
+	float:left;
+	width:162px;
+	height:125px;
+	padding:0 15px 0 0
+}
+.readmoregreen {
+	text-align:left;
+	color:#258403;
+	font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+.olca_text p {
+    color: #000000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 18px;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    word-spacing: 1px;
+}
+.olca_features {
+	width:944px;
+	margin:0 18px;
+	padding:0;
+}
+.olca_features ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	float:left;
+}
+.olca_features ul li {
+	float:left;
+	width:206px;
+	height:auto;
+	margin:0 15px 15px;
+	padding:0;
+}
+.olca_features h2 {
+	background-color:#455a62;
+	padding:10px;
+	text-align:center;
+	color:#FFFFFF;
+	margin:0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	width:186px;
+
+}
+.olca_features h2 a {
+	color:#ffffff;
+	text-decoration:none;
+}
+.olca_features h2 a:hover {
+	color:#DBFFC1;
+	text-decoration:none;
+}
+.olca_features img {
+	width:206px;
+	height:195px;
+	display:block;
+	float:left;
+}
+.our_profile_box {
+	background-image: url("images/our_profile.jpg");
+	background-repeat: no-repeat;
+	background-position: left top;
+	float: left;
+	height: 195px;
+	width: 206px;
+	position: relative;	
+}
+.our_profile_box ul {
+	float:left;
+	list-style-type:none;
+	margin:0;
+	padding:5px 0 0 0;
+}
+.our_profile_box ul li {
+    background-image: url("images/small_arrow.png");
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    margin: 0;
+	font:normal bold 12px arial;
+	color:#141311; 
+    padding: 7px 0 5px 29px;
+    width: 175px;
+}
+.our_profile_box ul li a {
+	color:#141311;
+	text-decoration:none;
+}
+.our_profile_box ul li a:hover {
+	color:#141311;
+	text-decoration:underline;
+}
+.olca_helpline {
+	width:auto;
+	margin:15px 0;
+	background-color:#258403;
+	box-shadow:0 7px 4px 1px #B9B9B9;
+	color: #ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	padding: 7px;
+	text-align: center;
+	word-spacing: 3px;
+}
+.olca_helpline a {
+	color:#ffffff;
+	text-decoration:none;
+}
+.olca_helpline a:hover {
+	color:#ffffff;
+	text-decoration:underline;
+}
+.olca_footer {
+    background-image: url("images/olca_mission_footer.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    float: left;
+    height: 119px;
+    margin: 0;
+    padding: 137px 0 0;
+    width: 100%;
+}
+.footer_box {
+	width:100%;
+	margin:0;
+	padding:0;
+}
+.footer_box p {
+	text-align:center;
+	color:#ffffff;
+	padding:0;
+}
+.footer_box p a {
+	color:#ffffff;
+	text-decoration:none;
+	padding:0;
+}
+.footer_box p a:hover {
+	text-decoration:underline;
+	color:#ffffff;
+	padding:0;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Oshiwara Lokhandwala Citizens Association</title>
+	<%= stylesheet_link_tag "http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/themes/redmond/jquery-ui.css" %>
+	<%= javascript_include_tag "http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js", "http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/jquery-ui.min.js" %>
+	<%= javascript_include_tag "application" %>
+    <%= stylesheet_link_tag "application", media: "all" %>
+
+	<%= csrf_meta_tags %>
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+     <!-- Favorites and Appple touch icons -->
+    <link rel="shortcut icon" href="/images/favicon.ico">
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/apple-touch-icon-114x114.png">
+  </head>
+
+<body>
+<div id="main_wrapper">
+  <div class="olca_header">
+    <div class="headerbg"></div>
+    <div class="headerlogo"><a href="http://www.google.com" title="Oshiwara Lokhandwala Citizens Association"><img src="assets/images/olca_mission_logo.jpg" alt="" border="0" /></a></div>
+    <div class="headerbanner"><img src="assets/images/olca_mission_banner.jpg" alt="" border="0" /></div>
+    <div class="headerlinks"> <a href="" title="Homepage">Homepage</a> | <a href="" title="About Us">About Us</a> | <a href="" title="Our Mission">Our Mission</a> | <a href="" title="Achievements">Achievements</a> | <a href="" title="Our Vicinity">Our Vicinity</a> | <a href="" title="Homepage">Join Us</a> | <a href="" title="Homepage">Donate</a> | <a href="" title="FAQS">FAQS</a> | <a href="" title="Contact us">Contact us</a> | <a href="" title="Site Map">Site Map</a></div>
+  </div>
+  <div class="olca_dynamic">
+    <div class="olca_wrapper">
+      <div class="olca_content">
+        <h1>Welcome in OLCA</h1>
+        <div class="olca_iconimg"><img src="assets/images/profile_pic.jpg" alt="" border="0" /></div>
+        <div class="olca_text">
+          <p>Once again, come and Join hands to empower We will never let anyone to ruin the Mangroves and wholeheartedly committed 
+            to save and bring back our Mangroves destroyed opposite ‘Millat Nagar’ We will never let anyone to ruin the Mangroves and 
+            wholeheartedly committed to save and bring back our Mangroves destroyed opposite ‘Millat Nagar’ ourselves to create a better 
+            world. <strong>Our Goals are:</strong><br />
+            <br />
+            <strong>:- Save Mangroves, Open Spaces,</strong> <br />
+            <strong>:- Obtain Building Conveyance,</strong> <br />
+            <strong>:- Protect and Create Green Zones,</strong> <br />
+            <strong>:- Civic Facilities, Safe Neighbourhood,</strong> <br />
+            <strong>:- Clean and Beautiful Vicinity.</strong> </p>
+            <p>&nbsp;</p>
+            <p><a href="#" class="readmoregreen">Read More..</a></p>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <div class="olca_features">
+      <ul>
+        <li>
+          <h2><a href="#" title="Our Vicinity">Our Vicinity</a></h2>
+          <a href="#"><img src="assets/images/our_vicinity.jpg" alt="" title="Our Vicinity"  /></a></li>
+        <li>
+          <h2><a href="#" title="Our Mission">Our Mission</a></h2>
+          <a href="#"><img src="assets/images/our_mission.jpg" alt="" title="Our Mission" /></a></li>
+        <li>
+          <h2><a href="#" title="Achievement">Achievement</a></h2>
+          <a href="#"><img src="assets/images/achievement.jpg" alt=""  title="Achievement" /></a></li>
+        <li>
+          <h2><a href="#" title="Alliance">Help Line</a></h2>
+          <div class="our_profile_box">
+            <ul>
+              <li><a href="#" title="Hospitals">Hospitals</a></li>
+              <li><a href="#" title="Colleges">Colleges</a></li>
+              <li><a href="#" title="Schools">Schools</a></li>
+              <li><a href="#" title="Fire Brigade">Fire Brigade</a></li>
+              <li><a href="#" title="Ambulance">Ambulance</a></li>
+              <li><a href="#" title="BMC">BMC</a></li>
+            </ul>
+          </div></li>
+        <li>
+          <h2>Our Profile</h2>
+          <div class="our_profile_box">
+            <ul>
+              <li><a href="#" title="Mangroves">Mangroves</a></li>
+              <li><a href="#" title="Open Spaces">Open Spaces</a></li>
+              <li><a href="#" title="Playgrounds">Playgrounds</a></li>
+              <li><a href="#" title="Encroachment">Encroachment</a></li>
+              <li><a href="#" title="Protect Green Zones">Protect Green Zones</a></li>
+              <li><a href="#" title="Safe Neighbourhood">Safe Neighbourhood</a></li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <h2><a href="#" title="Media">Media</a></h2>
+          <a href="#"><img src="assets/images/media.jpg" alt="" title="Media"  /></a></li>
+        <li>
+          <h2><a href="#" title="Events">Events</a></h2>
+          <a href="#"><img src="assets/images/events.jpg" alt="" title="Events"  /></a></li>
+        <li>
+          <h2><a href="#" title="Donate" >Donate</a></h2>
+          <a href="#"><img src="assets/images/donate.jpg" alt="" title="Donate"  /></a></li>
+      </ul>
+      <div class="clear"></div>
+    </div>
+    <div class="olca_helpline">Help Line : <a href="#">Hospitals</a> | <a href="#">Colleges</a> | <a href="#">Schools</a> | <a href="#">Fire Brigade</a> | <a href="#">Ambulance</a> | <a href="#">BMC</a></div>
+  </div>
+  <div class="olca_footer">
+    <div class="footer_box">
+      <p>Oshiwara Lokahandwala Citizen Association | The Mission For Better Vicinity</p>
+      <p><a href="#">Home</a> | <a href="#">About Us</a> | <a href="#">Our Vicinity</a> | <a href="#">Our Mission</a> | <a href="#">Alliance</a> | <a href="#">Achievements</a> | <a href="#">Media</a> | <a href="#">Events</a> | <a href="#">Join Us</a> | <a href="#">Site Map</a> | <a href="#">FAQS</a> | <a href="#">Contact us</a></p>
+      <p>Help Line: <a href="#">Hospitals</a> | <a href="#">Colleges</a> | <a href="#">Schools</a> | <a href="#">Fire Brigade</a> | <a href="#">Ambulance</a> | <a href="#">BMC</a></p>
+      <p>All Rights Reserved 2012 | OLCA</p>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div>
+</body>
+</html>

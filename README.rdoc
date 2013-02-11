@@ -1,0 +1,1 @@
+rake community_engine:make_admin email=user@foo.com
