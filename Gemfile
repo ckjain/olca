@@ -11,7 +11,7 @@ gem 'sqlite3', '1.3.7'
 gem 'community_engine'
 
 gem 'carrierwave'
-gem 'rmagick'
+gem 'rmagick', '2.12.2'
 gem "bootstrap-sass", ">= 2.1.1.0"
 gem 'twitter-bootstrap-rails'
 
