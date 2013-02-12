@@ -4,8 +4,8 @@ gem 'rails', '3.2.8'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
-gem 'pg'
-#gem 'sqlite3', '1.3.7'
+
+gem 'sqlite3', '1.3.7'
 
 
 gem 'community_engine'
@@ -35,7 +35,9 @@ gem 'jquery-rails'
 
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
-
+group :production do
+  gem 'pg'
+end
 # Use unicorn as the app server
 # gem 'unicorn'
 
