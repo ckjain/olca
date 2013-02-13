@@ -1,6 +1,6 @@
 configuration = {
 
-  :app_host => "localhost:3000", #override this in your application.yml
+  :app_host => "olca.herokuapp.com", #override this in your application.yml
 
   :community_name => "OLCA",
 

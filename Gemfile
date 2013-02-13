@@ -11,7 +11,7 @@ gem 'rails', '3.2.8'
 gem 'community_engine'
 
 gem 'carrierwave'
-gem 'rmagick', '2.12.2'
+gem 'rmagick'
 gem "bootstrap-sass", ">= 2.1.1.0"
 gem 'twitter-bootstrap-rails'
 

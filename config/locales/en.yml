@@ -27,13 +27,13 @@ en:
   
   date:
     formats:
-      published_date: "%m/%d/%Y"
+      published_date: "%d/%m/%Y"
       date_ago: "%b %Y"
 
   time:
     formats:
-      published_date: "%m/%d/%Y"      
-      short_published_date: "%m/%d/%y"
+      published_date: "%d/%m/%Y"      
+      short_published_date: "%d/%m/%y"
       literal_date: "%B %d, %Y"
       short_literal_date: "%b %d, %Y"
       time_ago: "%l:%M%p"

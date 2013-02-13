@@ -100,7 +100,8 @@ GEM
       rack (~> 1.1)
     friendly_id (3.3.3.0)
       babosa (~> 0.3.0)
-    haml (3.1.7)
+    haml (4.0.0)
+      tilt
     hike (1.2.1)
     hpricot (0.8.6)
     htmlentities (4.3.1)
@@ -220,7 +221,7 @@ GEM
     rest-client (1.6.7)
       mime-types (>= 1.16)
     ri_cal (0.8.8)
-    rmagick (2.12.2)
+    rmagick (2.13.2)
     ruby-openid (2.2.2)
     ruby-openid-apps-discovery (1.2.0)
       ruby-openid (>= 2.1.7)
@@ -272,7 +273,7 @@ DEPENDENCIES
   jquery-rails
   pg
   rails (= 3.2.8)
-  rmagick (= 2.12.2)
+  rmagick
   sass-rails (~> 3.2.3)
   thin
   twitter-bootstrap-rails
